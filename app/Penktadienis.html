@@ -9,19 +9,16 @@
 </head>
 
 
+
 <div id="main" ng-app>
     <nav class="{{active}}" ng-click="$event.preventDefault()">
         <a href="Pirmadienis.html" class="pirmadienis" ng-click="active='pirmadienis'">Pirmadienis</a>
-        <a href="" class="antradienis" ng-click="active='antradienis'">Antradienis</a>
-        <a href="#" class="trečiadienis" ng-click="active='trečiadienis'">Trečiadienis</a>
-        <a href="#" class="ketvirtadienis" ng-click="active='ketvirtadienis'">Ketvirtadienis</a>
-        <a href="#" class="penktadienis" ng-click="active='penktadienis'">Penktadienis</a>
+        <a href="Antradienis.html" class="antradienis" ng-click="active='antradienis'">Antradienis</a>
+        <a href="Treciadienis.html" class="trečiadienis" ng-click="active='trečiadienis'">Trečiadienis</a>
+        <a href="Ketvirtadienis.html" class="ketvirtadienis" ng-click="active='ketvirtadienis'">Ketvirtadienis</a>
+        <a href="Penktadienis.html" class="penktadienis" ng-click="active='penktadienis'">Penktadienis</a>
 
     </nav>
-    <p ng-hide="active">Click item meniu</p>
-    <p ng-show="active">You chose <b>{{active}}</b></p>
 
 
 </div>
-
-
